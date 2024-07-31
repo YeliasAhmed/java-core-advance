@@ -19,9 +19,9 @@ public class AddressBook {
             System.out.println("4. Delete Contact");
             System.out.println("5. Exit");
             System.out.print("Enter an option: ");
-
             int choice = scanner.nextInt();
             scanner.nextLine();
+
             switch (choice) {
 
                 case 1:
